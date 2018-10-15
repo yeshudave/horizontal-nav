@@ -14,17 +14,14 @@ body {
 }
 
 header nav:last-of-type a:not(.planets) {
-
+  padding: .6em;
 }
 
 h1 {
   color: #fff;
-  font-family: 'Bevan', cursive;
+  font-family: "Bevan", cursive;
   text-align: center;
-}
-
-ul li {
-  display: inline-block;
+  margin: 0;
 }
 
 .planets {
@@ -32,8 +29,12 @@ ul li {
   text-align: center;
   border: 2px solid #595652;
   border-color: #595652;
-  margin: -.5em;
-  padding: .6em;
+  margin: 0;
+}
+
+ul li {
+  display: inline-block;
+  padding: 0;
 }
 
 .planets ul {
@@ -41,6 +42,7 @@ ul li {
 }
 
 .planets a {
+  display: inline-block;
   padding: .5em .75em;
   background-color: #713837;
   text-align: center;
