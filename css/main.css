@@ -1,0 +1,46 @@
+body {
+  background-color: #dbd6cf;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  line-height: 1.5;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+h1 {
+  color: #fff;
+  font-family: 'Bevan', cursive;
+  text-align: center;
+}
+
+ul li {
+  display: inline-block;
+}
+
+.planets {
+  background-color: #79756f;
+  text-align: center;
+  border: 2px solid #595652;
+  border-color: #595652;
+  margin: -.5em;
+  padding: .6em;
+}
+
+.planets ul {
+  list-style-type: none;
+}
+
+.planets a {
+  padding: .5em .75em;
+  background-color: #713837;
+  text-align: center;
+  border-radius: 4px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.planets a:hover {
+  background-color: #f33;
+}
