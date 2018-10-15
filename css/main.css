@@ -1,12 +1,20 @@
-body {
+html {
   background-color: #dbd6cf;
   box-sizing: border-box;
+}
+
+body {
   font-family: sans-serif;
   line-height: 1.5;
+  margin: 0;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+header nav:last-of-type a:not(.planets) {
+
 }
 
 h1 {
